@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2.4.2017, 10:50:20
+    Author     : Podzimek Vojtěch
+*/
+
+
+.border {border: solid 1px black;}
+.border2{border: solid 20px transparent}
+.padding{padding: 0.3em;}
+
+.img-box{
+    height: 4em;
+}
+.img-box img{
+    width: 100%;
+    max-height: 4em;
+    display: block;
+    margin: auto;
+        
+}
+.img-box-lg{
+    height: 20em;
+}
+.img-box-lg img{
+    width: 50%;    
+}
+.img-full-width{
+    width: 100%;
+    height: auto;
+}
+.img-lg{
+    width: auto;
+    height: auto;
+    max-height: 20em;
+}
+.full-width{
+    width: 100%;
+}
+.center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.blok-box{
+    height: 5em;
+}

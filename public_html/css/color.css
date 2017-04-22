@@ -1,0 +1,17 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2.4.2017, 10:47:59
+    Author     : Podzimek Vojtěch
+*/
+
+.bg-blue{
+    background-color: #293388;
+    color: white;
+}
+.bg-yellow{ background-color: #ffcc00}
+.bg-white{background-color: #ffffff;
+          color:black;}

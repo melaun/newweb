@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2.4.2017, 10:46:07
+    Author     : Podzimek Vojtěch
+*/
+
+.center {align-content: center}
+
+
+/**
+Menu
+**/
+.menu{
+   
+    }
+
+.menu ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+.menu.center ul{
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+.menu li{
+    flex-grow: 3;
+    font-size: 1.1em;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    margin: 2px;
+}
+.menu li:hover{
+    cursor: pointer;
+    background-color: #293388;
+    color: white;
+}
+.menu li{
+    border-bottom: #293388 solid 1px;
+}
+/**
+**/
+
+
+.row {display: flex; flex-direction: column;}
+
+
+.container{min-height: 70%;margin: auto;}
+.container:after{content: "";}
+
+
+
+body{
+    background-image: url('../img/bg05.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    background-attachment: fixed;  
+}
+.inside{
+    margin: 1px 1px 1px 1px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px grey;
+    z-index: 50;
+    overflow: hidden;
+}
+html, body{
+    height: 100%;
+    font-family: 'Pavanam', sans-serif;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    
+}
+footer ul{
+    list-style: none;
+   
+}
+.hidden-sm{
+    display: none;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .row {flex-flow: row wrap;}
+    .container{max-width: 1100px;}
+    .hidden-sm {display: flex;}
+    footer{justify-content: space-around;}
+    
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .col-1 {width: 8.33%;}
+
+}

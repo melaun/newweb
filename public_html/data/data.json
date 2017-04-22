@@ -1,0 +1,16 @@
+{
+    "name": "Akce mesice",
+    "startDate": "01012017",
+    "endDate": "31012017",
+    "items":
+            [
+                {
+                    "name": "Podzimek Vojtěch",
+                    "price": 99.99,
+                    "img": ""
+                },
+                {
+                    "name": "Ondra"
+                }
+            ]
+}
